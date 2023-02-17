@@ -76,6 +76,6 @@ if(isset($submit))
                     </fieldset>
             </div> 
         </center>
-        <marquee width="99%" direction="right" scrollamount="35"><img src="flash.gif" id="flash"></marquee>
+        <marquee width="99%" direction="right" scrollamount="45"><img src="flash.gif" id="flash"></marquee>
     </body>
 </html>
