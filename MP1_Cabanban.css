@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 500px;
+    height: 175px;
+    object-fit: cover;
+}
+
+#gov{
+    width: 900px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#love{
+    width: 1100px;
+    height: 100px;
+    object-fit: cover;
+}
+#results{
+    width: 200px;
+    border: 15px solid rgb(255, 197, 89);
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 20px;
+}
+
+#butcom{
+    background-color: #FF6C6C; 
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 10px 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#butcom:active{
+        transform: scale(1.5);
+}
+
+#flash {
+    height: 100px; width: 200px;
+    object-fit: cover;
+}
+
+
