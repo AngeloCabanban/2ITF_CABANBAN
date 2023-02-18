@@ -16,27 +16,27 @@ if(isset($submit))
 		break;
 	}
 
-    if ($annSal > 250000) {
-        $annTax = ($annSal - 250000) * 0.2;
-    }
-
-    if ($annSal > 400000) {
-        $annTax = 30000 + ($annSal - 400000) * 0.25;
-    } 
-
-    else if ($annSal > 800000) {
-        $annTax = 130000 + ($annSal - 800000) * 0.3;
-    } 
-
-    else if ($annSal > 2000000) {
+    if ($annSal > 8000000) {
+        $annTax = 2410000 + ($annSal - 8000000) * 0.35;
+      }
+      
+      else if ($annSal > 2000000) {
         $annTax = 490000 + ($annSal - 2000000) * 0.32;
-    } 
+      } 
+      
+      else if ($annSal > 800000) {
+        $annTax = 130000 + ($annSal - 800000) * 0.3;
+      } 
+      
+      else if ($annSal > 400000) {
+        $annTax = 30000 + ($annSal - 400000) * 0.25;
+      } 
+      
+      else if ($annSal > 250000) {
+        $annTax = ($annSal - 250000) * 0.2;
+      }
 
-    else if ($annSal > 8000000) {
-          $annTax = 2410000 + ($annSal - 8000000) * 0.35;
-    }    
-
-    $monthlyTax = $annTax / 12;
+  $monthlyTax = $annTax / 12;
 }
 
 ?>
